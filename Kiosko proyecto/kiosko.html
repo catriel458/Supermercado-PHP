@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiosko</title>
+</head>
+<body>
+
+    <h1>Mercadito</h1>
+
+    <img src = "https://picsum.photos/300/200?grayscale">
+
+   </br>
+
+    <h2>Inventario</h2>
+  
+   </br>
+
+    <table>
+             
+        <!-- Tr para poner las celdas de la fila, td es cada celda -->
+        <!-- Primero encabezado, vas agregando por filas -->
+        <!-- Cuando cierro el tr paso a la fila de abajo, y repito -->
+
+        <tr class = "encabezado">
+        <td>Producto</td>
+        </tr>
+
+        <tr>
+            <td>Café</td>
+            </tr>
+
+            <tr>
+            <td>Fideos marca Sol</td>
+            </tr>
+
+            <tr>
+            <td>Leche marca Iris</td>
+            </tr>
+
+            <tr>
+            <td>Coca Cola 2,25L</td>
+            </tr>
+
+        </table>
+        
+
+
+    </br>
+    <form name="formulario" method="Post" action="kiosko.php">
+        <label>Ingrese la fecha <input type ="date" name ="fecha" value =""></label>
+        </br>
+        
+        <h3>Pedido 1</h3>
+
+        <img src = "https://picsum.photos/200">
+        </br>               
+        <label>Ingrese su producto:  <input type ="text" name ="p1" value =""></label>
+        </br>
+        <label>Ingrese cantidad: <input type ="number" name ="c1" value =""></label>
+        </br>
+        <label>Ingrese precio: <input type ="number" name ="pr1" value =""></label>
+        </br>
+        <h3>Pedido 2</h3>
+        <img src = "https://picsum.photos/200">
+        </br>
+        <label>Ingrese su producto:  <input type ="text" name ="p2" value =""></label>
+        </br>
+        <label>Ingrese cantidad: <input type ="number" name ="c2" value =""></label>
+        </br>
+        <label>Ingrese precio: <input type ="number" name ="pr2" value =""></label>
+        </br>
+        <h3>Pedido 3</h3>
+
+        <img src = "https://picsum.photos/200">
+        </br>
+        <label>Ingrese su producto:  <input type ="text" name ="p3" value =""></label>
+        </br>
+        <label>Ingrese cantidad: <input type ="number" name ="c3" value =""></label>
+        </br>
+        <label>Ingrese precio: <input type ="number" name ="pr3" value =""></label>
+        </br>
+        <label>Dinero ingresado: <input type ="number" name ="dn" value =""></label>
+        </br>
+        </br>
+        <input type="submit" value="Comprar" />
+    </form>
+
+
+    
+</body>
+</html>
